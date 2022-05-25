@@ -1,0 +1,26 @@
+.categorias {
+    background: black;
+    padding: 2rem;
+}
+
+.categorias__lista, .categorias__lista ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.categorias__lista___link {
+    color: var(--branco);
+    text-decoration: none;
+    border-right: 1px solid var(--branco);
+    font-size: 12px;
+    margin: 1rem 0;
+    padding-right: 2rem ;
+}
+
+#diaDosnamorados {
+    color: red;
+}
+
+#salarioCraque {
+    color: green;
+}

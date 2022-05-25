@@ -1,0 +1,117 @@
+.cabecalho {
+    background: rgb(207, 0, 0);
+    height: 250px;
+}
+
+.cabecalho__desconto {
+    background: #c9c900;
+    color: rgb(2, 141, 2);
+    font-size: 18px;
+    text-align: center;
+    height: 2.2rem;
+}
+
+.cabecalho__desconto___texto {
+    padding: .5rem;
+}
+
+.cabecalho__desconto___texto strong {
+    font-weight: bold;
+}
+
+.cabecalho__botao {
+    background: rgb(2, 141, 2);
+    border: none;
+    border-radius: 12px;
+    color: white;
+    padding: 0.5em;
+}
+
+.cabecalho__navegacao {
+    display: flex;
+    margin-left: 5rem;
+}
+
+.navegacao__lista, .navegacao__itens {
+    align-items: flex-start;
+    display: flex;
+}
+
+.navegacao__itens {
+    margin: 1rem .6rem 0;
+    padding-right: 2rem;
+    border-right: 1px solid black;
+}
+
+.navegacao__itens:last-child {
+    border: none;
+}
+
+.navegacao__itens___link {
+    color: var(--branco);
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.cabecalho__cliente {
+    align-items: flex-end;
+    display: flex;
+    font-weight: bold;
+    justify-content: space-between;
+    margin-left: 10rem;
+}
+
+.cabecalho__login {
+    color: var(--branco);
+    font-size: 12px;
+    align-self: flex-end;
+}
+
+.cabecalho__login--sair {
+    color: rgba(255, 136, 1, 0.993);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.pesquisar {
+    display: flex;
+    margin: 3rem 4rem 0;
+}
+
+.logo__pesquisar {
+    width: 20%;
+    height: 70px;
+    margin-right: 1rem;
+}
+
+.pesquisar__input {
+    border: none;
+    border-radius: 10px 0 0 10px;
+    font-size: 35px;
+    height: 100px;
+    width: 50%;
+}
+
+.pesquisar__botao {
+    background: rgb(131, 22, 22);
+    border: none;
+    border-radius: 0 10px 10px 0;
+    color: var(--branco);
+    padding: 2rem;
+    margin-right: 3rem;
+}
+
+.pesquisar__carrinho {
+    background: url(../../img/carrin.png);
+    background-repeat: none;
+    background-size: 100px 100px;
+    background-position: center;
+    font-weight: bold;
+    height: 100px;
+    width: 100px;
+}
+
+.pesquisar__texto {
+    color: var(--branco);
+    margin-top: 2.5rem;
+}

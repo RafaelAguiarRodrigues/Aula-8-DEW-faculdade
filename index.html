@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 8</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/categorias/categorias.css">
+    <link rel="stylesheet" href="./assets/css/anuncio/anuncio.css">
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__desconto">
+            <p class="cabecalho__desconto___texto">Compre agora no site e <strong>RETIRE em até 24h*</strong>na loja mais proxima. São descontos de <strong>até 50%</strong><button class="cabecalho__botao">Aproveite</button></p>
+        </div>
+        <div class="cabecalho__navegacao">
+            <ul class="navegacao__lista">
+                <li class="navegacao__itens"><a href="#" class="navegacao__itens___link">Meus pedidos</a></li>
+                <li class="navegacao__itens"><a href="#" class="navegacao__itens___link">Dúvidas</a></li>
+                <li class="navegacao__itens"><a href="#" class="navegacao__itens___link">Atendimento</a></li>
+                <li class="navegacao__itens"><a href="#" class="navegacao__itens___link">Retiro Rápido</a></li>
+                <li class="navegacao__itens"><a href="#" class="navegacao__itens___link">Nossas lojas</a></li>
+                <li class="navegacao__itens"><a href="#" class="navegacao__itens___link">Televendas 3004-6644</a></li>
+            </ul>
+            <div class="cabecalho__cliente">
+                <p class="cabecalho__login">Olá Roselene!não é você?<a href="#" class="cabecalho__login--sair">Sair</a>.
+                </p>
+            </div>
+        </div>
+        <div class="pesquisar">
+            <img src="./assets/img/logo-pontofrio.png" alt="logo do ponto frio" class="logo__pesquisar">
+            <input type="text" name="pesquisar" id="pesquisar" class="pesquisar__input">
+            <button class="pesquisar__botao">Buscar</button>
+            <div class="pesquisar__carrinho"></div>
+            <p class="pesquisar__texto">Meu carrinho</p>
+        </div>
+    </header>
+    <main class="principal">
+        <section class="categorias">
+            <div class="container">
+                <ul class="categorias__lista">
+                    <li><a href="#" class="categorias__lista___link">Todas as categorias</a></li>
+                    <li><a href="#" class="categorias__lista___link">Tecnologia</a></li>
+                    <li><a href="#" class="categorias__lista___link">Casa</a></li>
+                    <li><a href="#" class="categorias__lista___link">Entreterimento</a></li>
+                    <li><a href="#" class="categorias__lista___link">Beleza e Estilo</a></li>
+                    <li><a href="#" class="categorias__lista___link">Esportes</a></li>
+                    <li><a href="#" class="categorias__lista___link">Crianças e bebê</a></li>
+                    <li><a href="#" class="categorias__lista___link">Dias dos namorados</a></li>
+                    <li><a href="#" class="categorias__lista___link">Sálario de craque</a></li>
+                </ul>
+            </div>
+        </section>
+        <div class="anuncio">
+            <div data-js="anuncio__item" class="anuncio__item anuncio__item--visible">
+                <img src="./assets/img/televisao.jpg" alt="anuncio de uma televisao 8k">
+            </div>
+            <div data-js="anuncio__item" class="anuncio__item">
+                <img src="./assets/img/televisao2.jpg" alt="anuncio de uma televisao 8k">
+            </div>
+            <div data-js="anuncio__item" class="anuncio__item">
+                <img src="./assets/img/televisao3.jpg" alt="anuncio de uma televisao 8k">
+            </div>
+            <div class="carousel__actions">
+                <button data-js="carousel__button--prev" aria-label="Slide anterior">
+                  <
+                </button>
+          
+                <button data-js="carousel__button--next" aria-label="Próximo slide">
+                  >
+                </button>
+            </div>
+        </div>
+    </main>
+    <footer class="rodape">
+        
+    </footer>
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
